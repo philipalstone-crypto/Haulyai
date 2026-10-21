@@ -1,0 +1,12 @@
+{
+  "name": "alstone-hauly-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Alstone Hauly AI learning website starter",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

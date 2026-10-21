@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="Learn coding with Alstone Hauly AI — your future-focused learning companion.">
+  <title>Alstone Hauly AI — Learn Beyond Limits</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Alstone Hauly AI home">
+      <span class="brand-mark">H</span><span>ALSTONE <b>HAULY AI</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="navLinks">
+      <a href="#tutor">AI Tutor</a>
+      <a href="#academy">Academy</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="#academy">Start learning</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> YOUR FUTURE STARTS HERE</div>
+        <h1>Learn beyond<br><span>limits.</span></h1>
+        <p class="hero-text">Meet your learning companion for coding, AI, and the skills that build tomorrow. Learn at your pace, one idea at a time.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#academy">Explore the Academy <span>↗</span></a>
+          <a class="button secondary" href="#tutor">Meet Hauly Tutor</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>01</strong><span>Learn step by step</span></div>
+          <div><strong>24/7</strong><span>Learn at your pace</span></div>
+          <div><strong>∞</strong><span>Ideas to explore</span></div>
+        </div>
+      </div>
+      <div class="robot-stage" aria-label="Illustrated futuristic robot tutor">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="stage-glow"></div>
+        <div class="robot">
+          <div class="antenna"></div>
+          <div class="robot-head">
+            <div class="head-side left"></div><div class="head-side right"></div>
+            <div class="robot-eyes"><span></span><span></span></div>
+            <div class="robot-mouth"></div>
+          </div>
+          <div class="neck"></div>
+          <div class="robot-body">
+            <div class="chest-core"><span>H</span></div>
+            <div class="chest-line"></div>
+          </div>
+          <div class="robot-arm arm-left"></div><div class="robot-arm arm-right"></div>
+        </div>
+        <div class="float-tag tag-top"><span class="tag-dot"></span> HAULY TUTOR <small>ONLINE DEMO</small></div>
+        <div class="float-tag tag-bottom"><span>⌘</span> CODE · CREATE · LEARN</div>
+        <div class="scan-line"></div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Learning topics">
+      <div>PYTHON <span>✳</span> ARTIFICIAL INTELLIGENCE <span>✳</span> WEB DEVELOPMENT <span>✳</span> CREATIVE THINKING <span>✳</span> PYTHON <span>✳</span> ARTIFICIAL INTELLIGENCE <span>✳</span></div>
+    </section>
+
+    <section class="section tutor-section" id="tutor">
+      <div class="section-heading">
+        <div><div class="eyebrow">01 / YOUR AI COMPANION</div><h2>Talk to <span>Hauly.</span></h2></div>
+        <p>Ask a coding question or explore an idea. This first version uses a demo reply until a real AI service is connected.</p>
+      </div>
+      <div class="tutor-card">
+        <div class="tutor-profile">
+          <div class="mini-robot"><span class="mini-eyes">••</span><span class="mini-mouth"></span></div>
+          <div><strong>Hauly Tutor</strong><small><i class="status-dot"></i> Demo mode</small></div>
+          <span class="online-pill">STARTER</span>
+        </div>
+        <div class="chat-messages" id="chatMessages" aria-live="polite">
+          <div class="message bot-message"><span class="message-avatar">H</span><p>Hey there! I’m Hauly. Ask me about Python, coding, or how to start building your first project.</p></div>
+        </div>
+        <form id="chatForm" class="chat-form">
+          <label class="sr-only" for="chatInput">Your question</label>
+          <input id="chatInput" name="message" placeholder="Ask Hauly a coding question..." maxlength="1000" autocomplete="off" required>
+          <button type="submit" aria-label="Send message">↑</button>
+        </form>
+        <p class="demo-note">Starter demo · Do not enter passwords or private information.</p>
+      </div>
+    </section>
+
+    <section class="section academy-section" id="academy">
+      <div class="section-heading">
+        <div><div class="eyebrow">02 / ALSTONE ACADEMY</div><h2>Build skills. <span>Build the future.</span></h2></div>
+        <p>Start with Python fundamentals, then progress toward projects and AI concepts.</p>
+      </div>
+      <div class="course-grid">
+        <article class="course-card featured-course">
+          <div class="course-top"><span class="course-icon">Py</span><span class="course-level">BEGINNER · FREE</span></div>
+          <h3>Python Foundations</h3>
+          <p>Learn the building blocks of Python with short explanations and examples.</p>
+          <div class="course-meta"><span>6 starter topics</span><span>↗</span></div>
+          <button class="text-button lesson-open" data-lesson="python">Open lessons <span>→</span></button>
+        </article>
+        <article class="course-card">
+          <div class="course-top"><span class="course-icon cyan-icon">&lt;/&gt;</span><span class="course-level">COMING NEXT</span></div>
+          <h3>Web Development</h3>
+          <p>Explore HTML, CSS, and JavaScript to build interactive websites.</p>
+          <div class="course-meta"><span>HTML · CSS · JS</span><span>✳</span></div>
+          <button class="text-button lesson-open" data-lesson="web">Preview course <span>→</span></button>
+        </article>
+        <article class="course-card">
+          <div class="course-top"><span class="course-icon purple-icon">AI</span><span class="course-level">COMING NEXT</span></div>
+          <h3>AI Explorer</h3>
+          <p>Understand what AI is and how developers use it to solve problems.</p>
+          <div class="course-meta"><span>AI fundamentals</span><span>✳</span></div>
+          <button class="text-button lesson-open" data-lesson="ai">Preview course <span>→</span></button>
+        </article>
+      </div>
+      <div id="lessonPanel" class="lesson-panel hidden">
+        <div class="lesson-panel-head"><div><div class="eyebrow">LEARNING SPACE</div><h3 id="lessonTitle">Python Foundations</h3></div><button id="closeLesson" class="close-button" aria-label="Close lessons">×</button></div>
+        <div id="lessonContent"></div>
+      </div>
+    </section>
+
+    <section class="section path-section" id="about">
+      <div class="path-copy"><div class="eyebrow">03 / YOUR LEARNING PATH</div><h2>Small steps.<br><span>Real progress.</span></h2><p>Keep learning practical: understand a concept, try a small example, and use it in a project.</p><a class="button primary" href="#academy">Start with Python <span>↗</span></a></div>
+      <div class="path-steps">
+        <div class="path-step"><span>01</span><div><h3>Understand</h3><p>Learn a concept in clear, beginner-friendly language.</p></div><span class="step-icon">◉</span></div>
+        <div class="path-step"><span>02</span><div><h3>Practice</h3><p>Try examples and check your understanding.</p></div><span class="step-icon">⌘</span></div>
+        <div class="path-step"><span>03</span><div><h3>Create</h3><p>Use what you learned to build a small project.</p></div><span class="step-icon">↗</span></div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <div class="eyebrow">THE NEXT CHAPTER IS YOURS</div>
+      <h2>Curiosity is your <span>superpower.</span></h2>
+      <p>Start learning today. Keep building tomorrow.</p>
+      <a class="button primary" href="#academy">Explore lessons <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home"><span class="brand-mark">H</span><span>ALSTONE <b>HAULY AI</b></span></a>
+    <p>© <span id="year"></span> Alstone Hauly AI · Learning starts with curiosity.</p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
